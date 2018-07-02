@@ -64,7 +64,7 @@ h6 {
  * LINK STYLE
  *------------------------------------------*/
 a {
-    color              : #FFC107;
+    color              : #236dc9;
     text-decoration    : none;
     -webkit-transition : all 0.3s ease 0s;
     -moz-transition    : all 0.3s ease 0s;
@@ -83,7 +83,7 @@ a:active {
 a:hover,
 a:focus {
     text-decoration : none;
-    color           : #ff9800;
+    color           : #09274d;
     }
 
 p {
@@ -323,7 +323,7 @@ button:focus,
 /*    margin  : 20px 0; */
     padding : 0;
     display : block;
-	
+
 	margin: 0 auto;
     text-align: center;
     }
@@ -564,7 +564,7 @@ button:focus,
     text-align : center;
     top        : 65%;
     }
-	
+
 .sign {
 	text-align	: center;
 	margin		: 0 auto;
