@@ -569,3 +569,108 @@ button:focus,
 	text-align	: center;
 	margin		: 0 auto;
 	}
+
+/* Skill bar */
+
+.color1-bar {
+    background: #A7414A;
+    }
+
+.color1-percent, .color1-title{
+    color: #A7414A;
+    }
+
+.color2-bar {
+    background: #6A8A82;
+    }
+
+.color2-percent, .color2-title {
+    color: #6A8A82;
+    }
+
+.color3-bar {
+    background: #A37C27;
+    }
+
+.color3-percent, .color3-title {
+    color: #A37C27;
+    }
+
+.color4-bar {
+    background: #720017;
+    }
+
+.color4-percent, .color4-title {
+    color: #720017;
+    }
+
+.color5-bar {
+    background: #0584F2;
+    }
+
+.color5-percent, .color5-title {
+    color: #0584F2;
+    }
+
+.color6-bar {
+    background: #6465A5;
+    }
+
+.color6-percent, .color6-title {
+    color: #6465A5;
+    }
+
+.color7-bar {
+    background: #00743F;
+    }
+
+.color7-percent, .color7-title {
+    color: #00743F;
+    }
+
+
+.skillbar {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    }
+
+.skillbar-bar:before {
+    background: #000;
+    content: "";
+    height: 3px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    }
+
+.skillbar-bar {
+    height: 3px;
+    width: 0px;
+    transition-property: width, background-color;
+    }
+
+.skillbar-title {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    }
+
+.skill-bar-percent {
+    float: right;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    }
+
+/* CENTERING ONLY */
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    }
